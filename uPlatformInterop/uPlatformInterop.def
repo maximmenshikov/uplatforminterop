@@ -1,0 +1,41 @@
+LIBRARY     PLATFORMINTEROP.DLL
+
+EXPORTS
+	BNSICreateNotification	=	msPlatformInterop.BNSICreateNotification @2   ; BNSICreateNotification
+	BNSIDeleteNotification	=	msPlatformInterop.BNSIDeleteNotification @3   ; BNSIDeleteNotification
+	BNSIGetNotificationByID	=	msPlatformInterop.BNSIGetNotificationByID @4   ; BNSIGetNotificationByID
+	BNSIGetNotificationByIndex	=	msPlatformInterop.BNSIGetNotificationByIndex @5   ; BNSIGetNotificationByIndex
+	BNSIGetNotificationCount	=	msPlatformInterop.BNSIGetNotificationCount @6   ; BNSIGetNotificationCount
+	BNSILaunchNotification	=	msPlatformInterop.BNSILaunchNotification @7   ; BNSILaunchNotification
+	BNSILoadErrorMessage	=	msPlatformInterop.BNSILoadErrorMessage @8   ; BNSILoadErrorMessage
+	BNSIUpdateNotification	=	msPlatformInterop.BNSIUpdateNotification @9   ; BNSIUpdateNotification
+	BeginManagingVibration	=	msPlatformInterop.BeginManagingVibration @10  ; BeginManagingVibration
+	CompleteTask	=	msPlatformInterop.CompleteTask @11  ; CompleteTask
+	DestroyTaskCallbacks	=	msPlatformInterop.DestroyTaskCallbacks @12  ; DestroyTaskCallbacks
+	DevicePropertiesGetFirmwareVersion	=	msPlatformInterop.DevicePropertiesGetFirmwareVersion @13  ; DevicePropertiesGetFirmwareVersion
+	DevicePropertiesGetHardwareVersion	=	msPlatformInterop.DevicePropertiesGetHardwareVersion @14  ; DevicePropertiesGetHardwareVersion
+	DevicePropertiesGetIMSI	=	msPlatformInterop.DevicePropertiesGetIMSI @15  ; DevicePropertiesGetIMSI
+	DevicePropertiesGetManufacturer	@16 ;=	msPlatformInterop.DevicePropertiesGetManufacturer @16  ; DevicePropertiesGetManufacturer
+	DevicePropertiesGetModel	@17 ;=	msPlatformInterop.DevicePropertiesGetModel @17  ; DevicePropertiesGetModel
+	DevicePropertiesGetUniqueDeviceId	=	msPlatformInterop.DevicePropertiesGetUniqueDeviceId @18  ; DevicePropertiesGetUniqueDeviceId
+	GetCurrentProcessHandle	=	msPlatformInterop.GetCurrentProcessHandle @19  ; GetCurrentProcessHandle
+	GetTaskInputBuffer	=	msPlatformInterop.GetTaskInputBuffer @1   ; GetTaskInputBuffer
+	Initialize	=	msPlatformInterop.Initialize @20  ; Initialize
+	IsClsidApproved	=	msPlatformInterop.IsClsidApproved @21  ; IsClsidApproved
+	LNGetAppTaskInfo	=	msPlatformInterop.LNGetAppTaskInfo @22  ; LNGetAppTaskInfo
+	NativeGetNetworkType	=	msPlatformInterop.NativeGetNetworkType @23  ; NativeGetNetworkType
+	OnFullObscurityChanged	=	msPlatformInterop.OnFullObscurityChanged @24  ; OnFullObscurityChanged
+	RegisterAppCallbacks	=	msPlatformInterop.RegisterAppCallbacks @25  ; RegisterAppCallbacks
+	RegisterComDllInproc	=	msPlatformInterop.RegisterComDllInproc @26  ; RegisterComDllInproc
+	RegisterNetworkNotification	=	msPlatformInterop.RegisterNetworkNotification @27  ; RegisterNetworkNotification
+	RegisterTaskCallbacks	=	msPlatformInterop.RegisterTaskCallbacks @28  ; RegisterTaskCallbacks
+	RegistryWatchInitialize	=	msPlatformInterop.RegistryWatchInitialize @29  ; RegistryWatchInitialize
+	ResolveHostName	=	msPlatformInterop.ResolveHostName @30  ; ResolveHostName
+	SetHostErrorCode	=	msPlatformInterop.SetHostErrorCode @31  ; SetHostErrorCode
+	StartRegistryWatchCallback	=	msPlatformInterop.StartRegistryWatchCallback @32  ; StartRegistryWatchCallback
+	Stop	=	msPlatformInterop.Stop @33  ; Stop
+	StopManagingVibration	=	msPlatformInterop.StopManagingVibration @34  ; StopManagingVibration
+	StopRegistryWatchCallback	=	msPlatformInterop.StopRegistryWatchCallback @35  ; StopRegistryWatchCallback
+	UnInitialize	=	msPlatformInterop.UnInitialize @36  ; UnInitialize
+	UnregisterNetworkNotification	=	msPlatformInterop.UnregisterNetworkNotification @37  ; UnregisterNetworkNotification
+	Vibrate	=	msPlatformInterop.Vibrate @38  ; Vibrate
